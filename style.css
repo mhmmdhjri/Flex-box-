@@ -1,0 +1,64 @@
+.container{
+    width : 600px;
+     height: 100px;
+   
+  background : green;
+    border : 5px solid black;
+    margin : 30px auto;
+    padding :5px; 
+    box-sizing : border-box;
+display : flex; 
+
+/* flex-direction */
+
+/* flex-direction : row ; dari kiri ke kanan misal 1234 */
+
+/* flex-direction : row-reverse ; kebalikanya misal 4321 */
+
+/* flex-direction : column; dari atas kebawah */
+
+/* flex-direction : column-reverse; dari bawaha ke atas  */
+
+/* flex wrap    NB : kalau kita tidak menggunakan flex wrap dia akan terus memaksa ketika ketika menambahkan konten dan itu akn membuat konten nya akan berubah ukuran dan jadi jelek */
+
+   /* flex-wrap : wrap; dan juga ada wrap-reverse  */
+
+   
+  /* align-items: stretch; ini gunanyauntuk menuhin kebawah dan ini ketentuan nya tidak boleh di adjust dulu height nya */
+        
+  /* align-items: baseline; jadi ini gunanya untuk mensamakan barisnya dengan content yg lain jadi sejajar */
+
+  /* align-content dan ini berlaku kalau content nya lebih dari dari satu baris */
+  
+/* order */
+
+ /* dan juga ada order yg berguna untuk memindahkan item ke item contoh 1234 kita bisa mengubah 1 menjadi urutan ke 3 = 3214
+ NB : semua item order  nya 0 jadi kalau mau kita tukar tukar harus kita adjust dulu */
+
+ /* flex-grow */
+
+ /* dan juga ada namanya flex grow kita bisa atur ukuran ukuran nya  */
+
+    /* align self dan ini hanya untuk satu konrten jai kita bisa bisa atur posisi nya */
+
+ /* ada juga align self */
+
+}  
+
+ 
+.container div{
+    /* width : 100px;
+  height: 100px; */
+    background : greenyellow ;
+  margin :2px;
+  flex: 1;
+  /* flex: 1; */
+}
+
+.container div.dua{
+    align-self: center;
+}
+
+
+
+  
